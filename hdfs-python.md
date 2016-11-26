@@ -4,10 +4,10 @@ http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleClu
 # Enable webhdfs
 Modify etc/hadoop/hdfs-site.xml by adding following property:
 
-  <property>
-    <name>dfs.webhdfs.enabled</name>
-    <value>true</value>
-  </property>
+    <property>
+      <name>dfs.webhdfs.enabled</name>
+      <value>true</value>
+    </property>
 
 # Start hdfs
 Run command to start hdfs:
