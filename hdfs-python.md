@@ -2,6 +2,8 @@
 http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
 
 # Enable webhdfs
+https://bighadoop.wordpress.com/2013/06/02/hadoop-rest-api-webhdfs/
+
 Modify etc/hadoop/hdfs-site.xml by adding following property:
 
     <property>
